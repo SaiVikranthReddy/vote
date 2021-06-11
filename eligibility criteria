@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age;
+    char ch;
+    cout<<" Enter the age and gender"<<endl;
+    cin>>age>>ch;
+    if(ch=='m')
+    {
+        if(age>=18)
+         cout<<" eligible to vote"<<endl;
+        else
+         cout<<" not eligible"<<endl;
+    }
+    else
+    {
+        if(age>=21)
+         cout<<" eligilble to vote"<<endl;
+        else
+         cout<<" not eligible to vote"<<endl;
+    }
+}
